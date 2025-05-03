@@ -1,8 +1,8 @@
 MODEL_PATH="$HOME/projects/paligemma-weights/paligemma-3b-pt-224"
-PROMPT="this building is "
-IMAGE_FILE_PATH="test_images/pic1.jpeg"
+PROMPT="what is in the image?"
+IMAGE_FILE_PATH="test/1.jpeg"
 MAX_TOKENS_TO_GENERATE=100
-TEMPERATURE=0.8
+TEMPERATURE=0.75
 TOP_P=0.9
 DO_SAMPLE="False"
 ONLY_CPU="False"
